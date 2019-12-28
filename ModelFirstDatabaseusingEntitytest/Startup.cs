@@ -46,18 +46,10 @@ namespace ModelFirstDatabaseusingEntitytest
             {
                 endpoints.MapControllers();
             });
-            //app.UseMvc();
+  
 
              // context.SeedDataContext();
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapGet("/", async context =>
-            //    {
-            //        await context.Response.WriteAsync("Hello World!");
-            //    });
-            //});
-
-            //  app.UseMvc();
+ 
             app.Run(async (context) =>
             {
 
